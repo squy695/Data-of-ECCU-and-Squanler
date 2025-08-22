@@ -1,4 +1,4 @@
-# Data-of-ECCU-and-Squanler
+## Data of ECCU and Squanler
 
 The following table lists the experimental data or code for each section along with their corresponding folder names:
 
@@ -14,6 +14,12 @@ The following table lists the experimental data or code for each section along w
 | 6.3 | Robustness of Squanler |
 | 6.4 | Accuracy of Squanler |
 
+## Running Squanler in Your Cluster
+
 Below are the steps required to run Squanler in your cluster:
-1 admin.conf: Replace with the admin.conf file specific to your cluster.
-2 Config.py: Refer to the file for detailed instructions.
+
+1. **admin.conf**:
+   - Replace with the `admin.conf` file specific to your cluster.
+
+2. **Config.py**:
+   - Refer to the file for detailed instructions.
