@@ -10,7 +10,7 @@ class KubernetesClient():
     def __init__(self, project_config: Config):
         self.config = project_config
         self.namespace = project_config.namespace
-        config.kube_config.load_kube_config(config_file=project_config.k8s_config)
+        config.kube_config.load_kube_config(config_file='admin.conf')
         self.core_api = client.CoreV1Api()
         self.apps_api = client.AppsV1Api()
         self.custom_api = client.CustomObjectsApi()
