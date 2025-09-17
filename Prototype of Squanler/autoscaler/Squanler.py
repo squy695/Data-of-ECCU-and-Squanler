@@ -37,7 +37,7 @@ class Squanler:
             self.k8s_util.patch_scale(self.config.svcs[i], count)
     
     def start(self):
-        print("Squanler goes...xwx...!")
+        print("Squanler goes...")
         
         self.scale()
         schedule.every(self.scale_interval).seconds.do(self.scale)
@@ -50,4 +50,4 @@ class Squanler:
                 break
             schedule.run_pending()
             
-        print("Squanler stops...xwx...!")
+        print("Squanler stops...")
